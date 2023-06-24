@@ -158,3 +158,177 @@
 .Feature-text {
   padding: 30px 0;
 }
+
+.Feature-category {
+  display: flex;
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.category {
+  width: 320px;
+  height: auto;
+  text-align: center;
+}
+
+.category2 {
+  margin: 0 10px;
+  width: 320px;
+  height: auto;
+  text-align: center;
+}
+
+.category-title {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.Profile {
+  background-color: #ECEFF1;
+}
+
+.Profile-category {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Profile-title {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  padding-bottom: 8px;
+  display: inline-block;
+  border-bottom: 3px solid #EC715F;
+
+}
+
+.Profile-text {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.Profile-image {
+  width: 512px;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 150px;
+}
+
+.my-box {
+  display: flex;
+  margin: 0 auto;
+  width: 1024px;
+  padding-bottom: 90px;
+}
+
+.myname {
+  width: 512px;
+}
+
+.myname-title {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.myname-text {
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.skills-title {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.skills-text {
+  font-size: 16px;
+  color: #000000;
+}
+
+.contact {
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.contact-category {
+
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  padding-bottom: 8px;
+  display: inline-block;
+  border-bottom: 3px solid #EC715F;
+}
+
+.contact-text {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.contact-box {
+  display: flex;
+
+}
+
+.mall-box {
+  width: 400px;
+  text-align: center;
+}
+
+.mall {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.tel {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.sns-box {
+  width: 400px;
+  justify-content: center;
+}
+
+.sns {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.sns-icon2 {
+  padding: 0 20px;
+}
+
+.icon-box {
+  display: flex;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-text {
+  font-size: 16px;
+  color: #FAFAFA;
+
+}
