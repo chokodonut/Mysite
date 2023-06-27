@@ -25,9 +25,16 @@
   font-size: 16px;
   color: #FAFAFA
 }
+
+.main-logo {
+  width: 150px;
+  height: 70px;
+}
+
 .heading {
   justify-content: flex-start;
 }
+
 .nav-item {
   display: inline-block;
   margin: 0 30px;
@@ -339,7 +346,7 @@
 @media screen and (max-width: 700px) {
 
   .header {
-    width: 100%;
+    width: 90%;
     height: 50px;
     display: flex;
     justify-content: flex-start;
@@ -350,7 +357,7 @@
     width: 100%
   }
 
- 
+
     /* チェックボックスを非表示にする */
   .drawer_hidden {
     display: none;
@@ -429,6 +436,156 @@
   #drawer_input:checked ~ .nav-list {
     left: 0;/* メニューを画面に入れる */
   }
-  
-  
+
+  .main-logo {
+    width: 150px;
+    height: 50px;
+  }
+
+  .main-visual {
+    width: 90%;
+    height: 650px;
+    background-image: url(img/code.png);
+    background-size: cover;
+  }
+
+  .main-visual-text {
+    font-size: 40px;
+  }
+
+  .main-visual-sabu {
+    font-size: 18px;
+  }
+
+  .Portfolio-content {
+    width: 90%;
+  }
+
+  .item {
+    width: 90%;
+    background-color: #ECEFF1;
+    margin: 0 auto;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .item-sketch {
+    display: none;
+  }
+
+  .item-websuku {
+    /*background-image: url(img/websuku.png);*/
+    width: 300px;
+    height: 250px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .item-write {
+    display: none;
+  }
+
+  .item-webcamp {
+    /*background-image: url(img/webcamp.png);*/
+    width: 300px;
+    height: 250px;
+    margin: 10px 0;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .item-talk {
+    display: none;
+  }
+
+  .item-mother {
+    /*background-image: url(img/webcamp-mother.png);*/
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .Feature {
+  width: 90%;
+  margin: 0 auto;
+
+  }
+
+  .Feature-content {
+    text-align: center;
+  }
+
+  .Feature-title {
+    font-size: 32px;
+    color: #000000;
+    padding-top: 90px;
+    padding-bottom: 8px;
+    display: inline-block;
+    border-bottom: 3px solid #EC715F;
+  }
+
+  .Feature-text {
+    padding: 30px 0;
+
+  }
+
+  .Feature-category {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 90px;
+    display: block;
+  }
+
+  .category {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .category2 {
+    margin: 0 auto;
+    width: 320px;
+    height: auto;
+    text-align: center;
+  }
+
+  .category-title {
+    font-size: 20px;
+    color: #000000;
+    margin: 10px 0;
+  }
+
+  .category-text {
+    margin-bottom: 10px;
+  }
+
+  .Profile-category {
+    width: 90%;
+  }
+
+  .Profile-image {
+    width: 90%;
+  }
+
+  .my-box {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 90px;
+  }
+
+  .Profile-image {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .img {
+    margin: 0 auto ;
+
+  }
+
 }
