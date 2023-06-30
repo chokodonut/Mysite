@@ -346,6 +346,7 @@
 @media screen and (max-width: 700px) {
 
   .header {
+    margin: 0 auto;
     width: 90%;
     height: 50px;
     display: flex;
@@ -443,6 +444,7 @@
   }
 
   .main-visual {
+    margin: 0 auto;
     width: 90%;
     height: 650px;
     background-image: url(img/code.png);
@@ -580,12 +582,61 @@
 
   .Profile-image {
     width: 90%;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
   }
 
   .img {
     margin: 0 auto ;
+  }
 
+  .myname {
+    width: 90%;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .contact {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 90px;
+  }
+
+  .contact-box {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .mall-box {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .sns-box {
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .sns {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .sns-icon2 {
+    padding: 0 8px;
+  }
+
+  .icon-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer {
+    width: 90%;
+    margin: 0 auto;
   }
 
 }
